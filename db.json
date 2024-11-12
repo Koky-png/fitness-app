@@ -1,0 +1,121 @@
+{
+    "fitness": [
+      {
+        "id": 1,
+        "name": "wHz-93",
+        "health": 94,
+        "damage": 20,
+        "armor": 63,
+        "bot_class": "Support",
+        "avatar_url": "https://robohash.org/nostrumrepellendustenetur.png?size=300x300&set=set1"
+      },
+      {
+        "id": 2,
+        "name": "P-24",
+        "health": 88,
+        "damage": 25,
+        "armor": 60,
+        "bot_class": "Witch",
+        "avatar_url": "https://robohash.org/idetcumque.png?size=300x300&set=set1"
+      },
+      {
+        "id": 3,
+        "name": "qq-69",
+        "health": 74,
+        "damage": 29,
+        "armor": 95,
+        "bot_class": "Defender",
+        "avatar_url": "https://robohash.org/corruptieaqueexcepturi.png?size=300x300&set=set1"
+      },
+      {
+        "id": 4,
+        "name": "G`t-65",
+        "health": 62,
+        "damage": 98,
+        "armor": 31,
+        "bot_class": "Assault",
+        "avatar_url": "https://robohash.org/nisinequequas.png?size=300x300&set=set1"
+      },
+      {
+        "id": 5,
+        "name": "TI-09",
+        "health": 81,
+        "damage": 39,
+        "armor": 52,
+        "bot_class": "Support",
+        "avatar_url": "https://robohash.org/etutprovident.png?size=300x300&set=set1"
+      },
+      {
+        "id": 6,
+        "name": "m-76",
+        "health": 65,
+        "damage": 90,
+        "armor": 38,
+        "bot_class": "Assault",
+        "avatar_url": "https://robohash.org/blanditiisautlaudantium.png?size=300x300&set=set1"
+      },
+      {
+        "id": 7,
+        "name": "Nb-70",
+        "health": 64,
+        "damage": 86,
+        "armor": 28,
+        "bot_class": "Assault",
+        "avatar_url": "https://robohash.org/aperiametfuga.png?size=300x300&set=set1"
+      },
+      {
+        "id": 8,
+        "name": "jDn-31",
+        "health": 52,
+        "damage": 93,
+        "armor": 36,
+        "bot_class": "Assault",
+        "avatar_url": "https://robohash.org/eiusautnihil.png?size=300x300&set=set1"
+      },
+      {
+        "id": 9,
+        "name": "x-27",
+        "health": 80,
+        "damage": 22,
+        "armor": 71,
+        "bot_class": "Medic",
+        "avatar_url": "https://robohash.org/aliquamutvelit.png?size=300x300&set=set1"
+      },
+      {
+        "id": 10,
+        "name": "qr-06",
+        "health": 92,
+        "damage": 37,
+        "armor": 57,
+        "bot_class": "Captain",
+        "avatar_url": "https://robohash.org/consecteturveritatisid.png?size=300x300&set=set1"
+      },
+      {
+        "id": 11,
+        "name": "o-44",
+        "health": 51,
+        "damage": 90,
+        "armor": 36,
+        "bot_class": "Assault",
+        "avatar_url": "https://robohash.org/temporibusexercitationemprovident.png?size=300x300&set=set1"
+      },
+      {
+        "id": 12,
+        "name": "VL-37",
+        "health": 74,
+        "damage": 37,
+        "armor": 91,
+        "bot_class": "Defender",
+        "avatar_url": "https://robohash.org/eiuslaborumaliquid.png?size=300x300&set=set1"
+      },
+      {
+        "id": 13,
+        "name": "s-96",
+        "health": 56,
+        "damage": 92,
+        "armor": 38,
+        "bot_class": "Witch",
+        "avatar_url": "https://robohash.org/autearem.png?size=300x300&set=set1"
+      }
+    ]
+}
