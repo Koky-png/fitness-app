@@ -1,48 +1,32 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-
-function Navbar() {
+const Navbar = () => {
   return (
-    <div>
-
-      <nav className="navbar navbar-expand-lg bg-light navbar-dark m-3 ">
-        <div className="container-fluid">
-          <h1 className="text-bold text-primary m-2">Welcome To FITFORMULA</h1>
-          
-          <div
-            className="collapse navbar-collapse justify-content-center "
-            id="navbarSupportedContent"
-          >
-            <ul className="navbar-nav mx-auto">
-              <div className=" m-5">
-                <li className="nav-item " >
-                  <Link to="/">
-                    <h4>Home</h4>
-
-                  </Link>
-                </li>
-                
-              </div>
-              <div className="m-5">
-                <li className="nav-item">
-                  <Link to="/train">
-                    <h4>Train</h4>
-                  </Link>
-              </li>
-              </div>
-              <div className="m-5">
-                <li className="nav-item">
-                  <Link to="/workout">
-                    <h4>Workout</h4>
-                  </Link>
-              </li>
-              </div> 
-            </ul>
-          </div>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container">
+        <Link className="navbar-brand" to="/">
+        FITFORMULA
+        </Link>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <Link className="nav-link active" to="/">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/fitness">Fitness</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">Contact</Link>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
-}
+};
+
 export default Navbar;

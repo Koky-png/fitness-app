@@ -1,58 +1,64 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer style={footerStyle}>
-      <div style={containerStyle}>
-        <div style={infoStyle}>
-          <h4>Information</h4>
-          <p>We are dedicated to providing the best fitness experience.</p>
-          <p>Our mission is to help you achieve your fitness goals.</p>
+    <footer className="bg-dark text-white py-4">
+      <div className="container">
+        <div className="row">
+          {/* Column 1: Links or App Info */}
+          <div className="col-md-4 mb-3">
+            <h5>FITFORMULA</h5>
+            <p>Empowering you to live a healthier life.</p>
+          </div>
+
+          {/* Column 2: Useful Links */}
+          <div className="col-md-4 mb-3">
+            <h5>Quick Links</h5>
+            {/* Use flex to align links horizontally */}
+            <ul className="list-unstyled d-flex justify-content-between">
+              <li className="me-3">
+                <Link className="text-white" to="/about">About Us</Link>
+              </li>
+              <li className="me-3">
+                <Link className="text-white" to="/fitness">Fitness Plans</Link>
+              </li>
+              <li className="me-3">
+                <Link className="text-white" to="/contact">Contact</Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Column 3: Social Media Links */}
+          <div className="col-md-4 mb-3">
+            <h5>Follow Us</h5>
+            <ul className="list-unstyled d-flex">
+              <li className="me-3">
+                <a className="text-white" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-facebook-f"></i> Facebook
+                </a>
+              </li>
+              <li className="me-3">
+                <a className="text-white" href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-twitter"></i> Twitter
+                </a>
+              </li>
+              <li>
+                <a className="text-white" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-instagram"></i> Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div style={contactStyle}>
-          <h4>Contact Us</h4>
-          <p>Email: support@fitnessapp.com</p>
-          <p>Phone: (254) 754567890</p>
-          <p>Address: 123 Fitness St, Nairobi City, CA 12345</p>
+
+        {/* Bottom Copyright */}
+        <div className="text-center mt-4">
+          <p className="mb-0">&copy; {new Date().getFullYear()} FitnessApp. All Rights Reserved.</p>
         </div>
-      </div>
-      <div style={footerBottomStyle}>
-        <p>&copy; {new Date().getFullYear()} Fitness App. All rights reserved.</p>
       </div>
     </footer>
   );
-}
-
-
-const footerStyle = {
-  backgroundColor: '#333',
-  color: '#fff',
-  padding: '20px 0',
-  position: 'relative',
-  bottom: '0',
-  width: '100%',
-};
-
-const containerStyle = {
-  display: 'flex',
-  justifyContent: 'space-around',
-  maxWidth: '1200px',
-  margin: '0 auto',
-};
-
-const infoStyle = {
-  flex: '1',
-  padding: '0 20px',
-};
-
-const contactStyle = {
-  flex: '1',
-  padding: '0 20px',
-};
-
-const footerBottomStyle = {
-  textAlign: 'center',
-  marginTop: '20px',
 };
 
 export default Footer;
