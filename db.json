@@ -2,7 +2,7 @@
     "fitness": [
       {
         "id": 1,
-        "name": "wHz-93",
+        "name": "Yoga",
         "health": 94,
         "damage": 20,
         "armor": 63,
@@ -117,5 +117,4 @@
         "bot_class": "Witch",
         "avatar_url": "https://robohash.org/autearem.png?size=300x300&set=set1"
       }
-    ]
-}
+    ]}
