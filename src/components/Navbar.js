@@ -17,7 +17,7 @@ function Navbar() {
             <ul className="navbar-nav mx-auto">
               <div className=" m-5">
                 <li className="nav-item " >
-                  <Link to="/home">
+                  <Link to="/">
                     <h4>Home</h4>
 
                   </Link>
