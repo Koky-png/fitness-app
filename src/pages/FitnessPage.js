@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './FitnessPage.css';
 
 const FitnessPage = () => {
   const [fitnessData, setFitnessData] = useState([]);
